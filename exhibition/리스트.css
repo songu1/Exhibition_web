@@ -1,0 +1,20 @@
+#ex_list{
+    margin-right: 150px;
+    margin-left:150px;
+}
+#ex_list table{
+    border: 1px solid gray;
+    width:100%;
+}
+table td{
+    text-align: center;
+}
+table img{
+    width:150px;
+}
+table.name{
+    width:500px;
+}
+table.plack{
+    width:400px;
+}

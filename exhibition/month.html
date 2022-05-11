@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>월별 전시</title>
+    <link type="text/css" rel="stylesheet" href="상단바.css">
+    </link>
+    <link type="text/css" rel="stylesheet" href="menu.css">
+    </link>
+    <link type="text/css" rel="stylesheet" href="sidemenu.css">
+    </link>
+    <style>
+        #Menu li {
+            line-height: 30px;
+        }
+
+        #sidemenu li a {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        #ex_list table {
+            border: 1px solid gray;
+            width: 100%;
+        }
+        iframe{
+            margin-left:100px;
+        }
+    </style>
+
+    <div>
+        <span class="logo1">
+            EXHIBITION
+        </span>
+        <span class="logo2">
+            | Which one do you want?
+        </span>
+        <span class="home">
+            <a href="home.html"><img src="home.png"></a>
+        </span>
+    </div>
+    <hr>
+</head>
+
+<body>
+    <div id="Menu">
+        <ul>
+            <li><a href="month.html" class="current">월별 전시<br>Monthly Exhibition</a></li>
+            <li><a href="popular.html">인기 전시<br>Popular Exhibition</a></li>
+            <li><a href="online.html">온라인 전시<br>Online Exhibition</a></li>
+        </ul>
+    </div><br><br>
+
+    <div id="sidemenu">
+        <ul>
+            <li><a href="jan.html" target="if_a">Jan</a></li>
+            <li><a href="feb.html" target="if_a">Feb</a></li>
+            <li><a href="mar.html" target="if_a">Mar</a></li>
+            <li><a href="apr.html" target="if_a">Apr</a></li>
+            <li><a href="may.html" target="if_a">May</a></li>
+            <li><a href="jun.html" target="if_a">Jun</a></li>
+        </ul>
+        <iframe src="basic.html" width="1200" height="800" name="if_a" frameborder="0"></iframe>
+    </div>
+
+
+</body>
+
+</html>

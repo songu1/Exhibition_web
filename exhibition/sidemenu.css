@@ -1,0 +1,22 @@
+#sidemenu ul{
+    float:left;
+    list-style:none;
+    margin:0px;
+    padding:0px;
+    position: relative;
+    width:100px;
+    list-style-type:none;
+    background-color: white;
+}
+#sidemenu li a{
+    display:block;
+    color:black;
+    border:1px black solid;
+    padding:5px 10px;
+    text-decoration: none;
+    text-align:center;
+    font-weight: bold;
+}
+#sidemenu li a:hover{
+    background-color: gray;
+}
